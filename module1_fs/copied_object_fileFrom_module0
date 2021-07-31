@@ -1,0 +1,24 @@
+let cap={
+name:  "robert",
+friends: ["john","thomas","tommy","jaction"],
+age: 34,
+isGangester :true,
+//methods
+sayHi :function(){
+  console.log("tommy says hi");  
+},
+10:"value is 10",
+address :{state: "united state",
+city: "california"},
+
+}
+
+for(let key in cap){
+    console.log(key," : ",cap[key]);
+}
+
+
+
+
+
+
